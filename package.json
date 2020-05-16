@@ -1,0 +1,45 @@
+{
+  "name": "hamster-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "bash ./deploy.sh"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.4.4",
+    "countup.js": "^2.0.4",
+    "intersection-observer": "^0.10.0",
+    "material-design-icons": "^3.0.1",
+    "vue": "^2.6.11",
+    "vue-authenticate": "^1.4.1",
+    "vue-axios": "^2.1.5",
+    "vue-countup-v2": "^4.0.0",
+    "vue-github-buttons": "^3.1.0",
+    "vue-localstorage": "^0.6.2",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.1.3",
+    "vue-typer": "^1.2.0",
+    "vuetify": "^2.1.0",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-router": "^4.1.0",
+    "@vue/cli-plugin-vuex": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "material-design-icons-iconfont": "^5.0.1",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "^2.0.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.3.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
