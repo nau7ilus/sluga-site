@@ -9,7 +9,7 @@
     "deploy": "bash ./deploy.sh"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.4.4",
     "countup.js": "^2.0.4",
     "intersection-observer": "^0.10.0",
